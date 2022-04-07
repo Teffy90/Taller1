@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head> <!--Aquí van 3 etiquetas metas (charset - name - content) -->
     <meta charset="utf-8">
     <!--Se pone la descripción de la página -->
     <meta name="description" content="Taller 1 HTML y Administración Versiones- Realizado para la materia de Tecnologías en Programación Web">
@@ -13,14 +13,57 @@
       <a href="seccion2.html"><strong>Tips</strong></a>
       <a href="seccion3.html"><strong>Formulario</strong></a>
     </header>
+    <br>
+    <br>
     <main> <!--Aquí va todo el contenido de la página -->
       <div>
-        <p>
-          Aquí va el texto
-        </p>
+        <h1>Tu opinión</h1>
+        <p>Para nosotros es muy importante saber tu opinión sobre como cuidas el planeta. </p>
+        <img src="imagenes/reciclar.jpg" alt="imagen de reciclaje"/>
+        <form action="">
+          <label for="nombre">¿Cual es tu nombre? </label>
+          <br>
+          <input type="text" id="nombre"  name="nombre" placeholder="Tu nombre" />
+          <br>
+          <br>
+          <label for="apellidos">¿Cuales son tus apellidos? </label>
+          <br>
+          <input type="text" id="apellidos"  name="apellidos" placeholder="Tus apellidos" />
+          <br>
+          <br>
+          <label for="pregunta1">¿Sabes reciclar? </label>
+          <br>
+          <input type="radio" id="Si" name="Respuesta" value="Si">
+          <label for="Si">Si</label><br>
+          <input type="radio" id="No" name="Respuesta" value="No">
+          <label for="No">No</label><br>
+          <br>
+          <br>
+          <label for="pregunta2">¿Ahorras agua? </label>
+          <br>
+          <input type="radio" id="Si" name="Respuesta2" value="Si">
+          <label for="Si">Si</label><br>
+          <input type="radio" id="No" name="Respuesta2" value="No">
+          <label for="No">No</label><br>
+          <br>
+          <br>
+          <label for="pregunta3">¿Que es cuidar el medio ambiente? </label>
+          <br>
+          <input type="text" id="pregunta3"  name="pregunta3" placeholder="pregunta3" />
+          <br>
+          <br>
+          <label for="pregunta4">¿Como cuidas el medio ambiente? </label>
+          <br>
+          <input type="text" id="pregunta4"  name="pregunta4" placeholder="pregunta4" />
+          <br>
+          <br>
+          <input type="submit" id=""/>
+      </form>
 
       </div>      
     </main>
+    <br>
+    <br>
     <footer><!--Aquí ve el pie de página  -->
       <table>
         <tr>
